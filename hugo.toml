@@ -1,0 +1,60 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Jonah Shader'
+theme = 'typo'
+
+[params]
+author = 'Jonah Shader'
+description = 'Projects, research, and publications'
+
+# Homepage
+homeIntroTitle = 'Hi, I\'m Jonah'
+homeIntroContent = '''
+I work on machine learning research, game development, audiovisual design, and various engineering projects.
+This site is where I share my work and ideas.
+'''
+homeCollectionTitle = 'Recent Posts'
+homeCollection = 'posts'
+
+# Appearance
+theme = 'auto'  # auto, light, or dark
+colorPalette = 'default'  # default, pink, red, orange, etc.
+
+# List settings
+paginationSize = 10
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Code highlighting
+codeFences = true
+highlightStyle = 'algol'
+
+# Math support (essential for research articles)
+math = true
+
+# Social links
+[[params.social]]
+name = 'github'
+url = 'https://github.com/jonahshader'
+
+# Navigation menu
+[[menu.main]]
+name = 'Posts'
+url = '/posts/'
+weight = 1
+
+[[menu.main]]
+name = 'Publications'
+url = '/publications/'
+weight = 2
+
+[[menu.main]]
+name = 'About'
+url = '/about/'
+weight = 3
+
+# Breadcrumbs configuration
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
