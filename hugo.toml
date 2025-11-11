@@ -8,7 +8,7 @@ author = 'Jonah Shader'
 description = 'Projects, research, and publications'
 
 # Homepage
-homeIntroTitle = 'Hi, I\'m Jonah'
+homeIntroTitle = "Hi, I'm Jonah"
 homeIntroContent = '''
 I work on machine learning research, game development, audiovisual design, and various engineering projects.
 This site is where I share my work and ideas.
